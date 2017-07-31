@@ -7,6 +7,7 @@
   background-image: url($image-url + "footer.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   & > div {
     width: 100%;
     text-align: center;

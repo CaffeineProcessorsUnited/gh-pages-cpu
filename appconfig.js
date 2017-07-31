@@ -1,13 +1,13 @@
 
-var email         = require('./app/js/email.js');
+var email = require('./app/js/email.js');
 
 module.exports = {
-  "logprefix": "exampleapp",
+  "logprefix": "cpu",
   "preprocess": {
     context: {
-      PAGETITLE: 'example.com',
-      MENUTITLE: 'Example Page',
-      NAME: 'Example Name',
+      PAGETITLE: 'caffeineaddicted.de',
+      MENUTITLE: 'CaffeineProcessorsUnited',
+      NAME: 'Caffeine Processing United',
       SOCIAL_EMAIL: new email().encode('someone@example.com', ''),
       SOCIAL_TWITTER: '#twitter',
       SOCIAL_GOOGLEPLUS: '#googleplus',

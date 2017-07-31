@@ -37,7 +37,9 @@
           console.log("Language module not loaded!");
         }
         template = templateId + language;
-        var el = $('#page_' + template);
+        console.log(template)
+        var el = $('#page_' + template.replace(".", "\\."));
+        console.log(el)
         if (el.length) {
           resolve(el);
         } else {
